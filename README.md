@@ -33,18 +33,6 @@ flutter_sound
 
 permission_handler
 
-📂 Folder Structure
-lib/
- ├── ui
- │    ├── screens
- │    ├── widgets
- │
- ├── services
- ├── utils
- ├── main.dart
-assets/
-pubspec.yaml
-
 🎧 Audio Support
 
 Implemented basic audio recorder flow:
@@ -56,3 +44,4 @@ record voice
 stop recording
 
 playback recorded audio
+
