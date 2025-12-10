@@ -1,16 +1,58 @@
-# speakgenie_app
+🚀 SpeakGenie – Flutter Assignment
 
-A new Flutter project.
+SpeakGenie is a mobile app UI developed using Flutter based on the assignment requirements provided.
+This project implements the main core UI screens, microphone flow & responsive design.
 
-## Getting Started
+📱 Features Implemented
 
-This project is a starting point for a Flutter application.
+✔ Home Screen (pixel-perfect based on Figma)
+✔ AI Practice section (Doraemon & Spiderman cards)
+✔ Human practice card
+✔ Audio stories
+✔ App-wide UI theme
+✔ Recording → Stop → Playback flow (Mocked / Functional)
+✔ Avatar + assets
+✔ Assets based UI
 
-A few resources to get you started if this is your first Flutter project:
+✨ Screens Built
+Screen	Status
+Home Screen	✔ done
+Chatbot Screen	✔ done / placeholder
+Profile	✔ done
+Leaderboard	✔ done
+Membership	✔ done
+🛠 Tech Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Flutter (Stable channel)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Dart
+
+Provider / SetState
+
+flutter_sound
+
+permission_handler
+
+📂 Folder Structure
+lib/
+ ├── ui
+ │    ├── screens
+ │    ├── widgets
+ │
+ ├── services
+ ├── utils
+ ├── main.dart
+assets/
+pubspec.yaml
+
+🎧 Audio Support
+
+Implemented basic audio recorder flow:
+
+request mic permission
+
+record voice
+
+stop recording
+
+playback recorded audio
